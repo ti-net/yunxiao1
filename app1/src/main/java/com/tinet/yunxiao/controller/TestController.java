@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@GetMapping("/")
 	public String index() {
+		String aaa="app1";
 		return "app1";
 	}
 }
